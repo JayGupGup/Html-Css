@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(255,234,234);
+}
+nav {
+    left: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+a {
+    margin: 10px;
+    font-size: 20pt;
+
+}
+img {
+    display: block;
+    margin: 10px;
+}
+.pics {
+    position: absolute;
+    right: 10px;
+    top: 150px;
+}
+.pic {
+    width: 46vw;
+}
+.appel {
+    position: absolute;
+    top: 150px;
+    width: 48vw;
+}
+.article1 {
+    position: absolute;
+    width: 30vw;
+    left: 10px;
+}
+.article2 {
+    position: absolute;
+    width: 30vw;
+    left: 33vw;
+    right: 33vw;
+}
+.article3 {
+    position: absolute;
+    width: 30vw;
+    right: 10px;
+}
+.articles {
+    position: relative;
+    top: 35vw;
+}
+.football {
+    width: 100%;
+
+}

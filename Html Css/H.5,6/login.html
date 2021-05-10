@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Burton Education</title>
+    <style>
+        form ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        form ul li {
+            padding: 10px;
+        }
+
+        form ul li input {
+            position: absolute;
+            left: 150px;
+        }
+
+        body {
+            background-color: rgb(255, 234, 234);
+        }
+
+        nav {
+
+            left: 10px;
+            margin-top: 10px;
+            padding-top: 5px;
+            margin-left: -100px;
+            padding-left: 5px;
+            margin-right: -20px;
+            padding-bottom: 5px;
+            text-align: left;
+
+        }
+
+        a {
+            padding-left: 100px;
+            font-size: 15pt;
+        }
+
+        select {
+            margin-left: 25px;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+
+    <div>
+
+        <img src=" burton_logo.png">
+
+    </div>
+
+    <nav>
+
+        <a href=" ">over ons</a>
+        <a href=" ">produkten</a>
+        <a href=" ">contact</a>
+        <a href="login.html">login</a>
+
+    </nav>
+
+</header>
+
+
+<form action="http://www.savatarian.com/html5/form.php" method="get">
+
+    <ul>
+
+        <li>
+            <label for="voornaam"> Voornaam: </label>
+            <input type="text" name="voornaam">
+        </li>
+        <li>
+            <label for="tussenvooegsel"> Tussenvoegsel: </label>
+            <input type="text" name="tussenvoegsel">
+        </li>
+        <li>
+            <label for="achternaam"> Achternaam: </label>
+            <input type="text" name="achternaam">
+        </li>
+
+
+        <div class="kleurogen">
+            <li>
+                <label for="kleur ogen"> Kleur ogen: </label>
+                <select name="Kleur ogen">
+                    <option>groen</option>
+                    <option>blauw</option>
+                    <option>bruin</option>
+                </select>
+            </li>
+        </div>
+
+        <li>
+            <label for="gender"> gender: </label>
+            <div class="gender">
+                <input type="radio" id="man" name="gender" value="man">
+                <label for="man">Man</label><br>
+                <input type="radio" id="vrouw" name="gender" value="vrouw">
+                <label for="vrouw">Vrouw</label><br>
+                <input type="radio" id="in de war" name="gender" value="in de war">
+                <label for="other">in de war</label><br><br>
+            </div>
+        </li>
+
+        <li>
+            <label for="geboortedatum"> Geboortedatum: </label>
+            <input type="date" name=geboortedatum">
+        </li>
+
+        <li>
+            <label for="omschrijving"> Omschrijving: </label>
+            <input style="width: 400px" height="300px" type="text" name="omschrijving">
+
+        </li>
+        <li>
+            <input  type="submit" name="knop">
+        </li>
+    </ul>
+</form>
+</body>
+</html>
